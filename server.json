@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.zen-studio-labs/taobao-tmall-mcp",
+  "title": "Taobao & Tmall (淘宝 天猫)",
+  "description": "Taobao (淘宝) and Tmall (天猫) product search, item details, SKUs, reviews and shop catalogs.",
+  "repository": {
+    "url": "https://github.com/zen-studio-labs/taobao-tmall-mcp",
+    "source": "github"
+  },
+  "version": "0.1.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=fetch-actor-details,get-actor-run,get-dataset-items,zen-studio/taobao-search-scraper,zen-studio/taobao-detail-scraper,zen-studio/taobao-seller-products-scraper",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional when your client supports Apify OAuth sign-in. Otherwise 'Bearer <APIFY_TOKEN>'.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

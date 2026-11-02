@@ -1,0 +1,6 @@
+# ~/.codex/config.toml
+# Sign in afterwards with: codex mcp login taobao
+[mcp_servers.taobao]
+url = "https://mcp.apify.com/?tools=fetch-actor-details,get-actor-run,get-dataset-items,zen-studio/taobao-search-scraper,zen-studio/taobao-detail-scraper,zen-studio/taobao-seller-products-scraper"
+# Token instead of sign-in: export APIFY_TOKEN and uncomment the next line.
+# bearer_token_env_var = "APIFY_TOKEN"

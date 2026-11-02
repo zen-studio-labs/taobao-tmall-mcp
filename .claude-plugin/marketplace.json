@@ -1,0 +1,34 @@
+{
+  "name": "taobao-tmall-mcp",
+  "owner": {
+    "name": "Zen Studio",
+    "url": "https://github.com/zen-studio-labs"
+  },
+  "metadata": {
+    "description": "Taobao (淘宝) and Tmall (天猫) tools and skill for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "taobao",
+      "source": "./",
+      "description": "Search Taobao (淘宝) and Tmall (天猫) products, read item details with SKUs, prices and reviews, and list a shop's products.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Zen Studio"
+      },
+      "homepage": "https://github.com/zen-studio-labs/taobao-tmall-mcp",
+      "license": "MIT",
+      "keywords": [
+        "taobao",
+        "淘宝",
+        "tmall",
+        "天猫",
+        "china ecommerce",
+        "product research",
+        "price monitoring",
+        "mcp"
+      ],
+      "category": "data"
+    }
+  ]
+}

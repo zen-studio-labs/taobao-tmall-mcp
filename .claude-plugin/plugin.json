@@ -1,0 +1,23 @@
+{
+  "name": "taobao",
+  "version": "0.1.0",
+  "description": "Search Taobao (淘宝) and Tmall (天猫) products, read item details with SKUs, prices and reviews, and list a shop's products.",
+  "author": {
+    "name": "Zen Studio",
+    "url": "https://github.com/zen-studio-labs"
+  },
+  "homepage": "https://github.com/zen-studio-labs/taobao-tmall-mcp",
+  "repository": "https://github.com/zen-studio-labs/taobao-tmall-mcp",
+  "license": "MIT",
+  "keywords": [
+    "taobao",
+    "淘宝",
+    "tmall",
+    "天猫",
+    "china ecommerce",
+    "product research",
+    "price monitoring",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://docs.apify.com/legal/privacy-policy"
+}

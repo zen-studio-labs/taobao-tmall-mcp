@@ -1,0 +1,23 @@
+# Taobao & Tmall (淘宝 天猫) MCP Server
+
+> Hosted remote MCP server for Taobao (淘宝) and Tmall (天猫) product data: keyword product search with price, sales band and shop ratings, item details with SKU variants, prices, stock, attributes, images and optional buyer reviews, and a shop's full product list. Read-only. No Taobao account; users sign in with a free Apify account (OAuth) and pay per result.
+
+## Install
+
+- Server name: taobao
+- Transport: streamable HTTP
+- URL: https://mcp.apify.com/?tools=fetch-actor-details,get-actor-run,get-dataset-items,zen-studio/taobao-search-scraper,zen-studio/taobao-detail-scraper,zen-studio/taobao-seller-products-scraper
+- Auth: Apify OAuth in the user's browser; alternative header `Authorization: Bearer <APIFY_TOKEN>`
+- Claude Code plugin: `claude plugin marketplace add zen-studio-labs/taobao-tmall-mcp`, then `claude plugin install taobao@taobao-tmall-mcp`
+
+## Docs
+
+- [README](https://github.com/zen-studio-labs/taobao-tmall-mcp/blob/main/README.md): setup for every client, tools, pricing, FAQ
+- [README in Chinese](https://github.com/zen-studio-labs/taobao-tmall-mcp/blob/main/README.zh-CN.md)
+- [Skill](https://github.com/zen-studio-labs/taobao-tmall-mcp/blob/main/skills/taobao/SKILL.md): run flow, input recipes, tool chaining, field sets
+
+## Tools
+
+- zen-studio/taobao-search-scraper: Taobao and Tmall products for a keyword, with sort, price range and a Tmall-only filter
+- zen-studio/taobao-detail-scraper: item details from product links, share links or IDs: SKUs, prices, stock, attributes, shop, optional reviews
+- zen-studio/taobao-seller-products-scraper: a shop's product list with prices and 30-day sales, from any of its product links (recommended), a Taobao shop link or a seller handle
