@@ -428,7 +428,14 @@ AI 助手通过 `maxItems`、`maxItemsPerSeller`、`maxReviewsPerItem` 等上限
 
 ## Zen Studio 的更多工具
 
-淘宝 MCP 基于 [Zen Studio 的 Apify Actors](https://apify.com/zen-studio) 构建。你也可以直接在 Apify 上运行每个工具，通过 API 调用或设置定时任务。需要闲鱼二手商品数据？试试 [闲鱼 MCP（Goofish MCP）](https://github.com/zen-studio-labs/goofish-mcp)。需要小红书笔记、评论和博主数据？试试 [小红书 MCP（RedNote MCP）](https://github.com/zen-studio-labs/rednote-xiaohongshu-mcp)。
+淘宝 MCP 基于 [Zen Studio 的 Apify Actors](https://apify.com/zen-studio) 构建。你也可以直接在 Apify 上运行每个工具，通过 API 调用或设置定时任务。
+
+- [闲鱼 MCP（Goofish MCP）](https://github.com/zen-studio-labs/goofish-mcp)：闲鱼二手商品、价格和卖家。
+- [小红书 MCP（RedNote MCP）](https://github.com/zen-studio-labs/rednote-xiaohongshu-mcp)：小红书笔记、评论和博主。
+- [抖音 MCP（Douyin MCP）](https://github.com/zen-studio-labs/douyin-mcp)：抖音视频、博主、评论和商品。
+- [1688 & 阿里巴巴 MCP](https://github.com/zen-studio-labs/alibaba-1688-mcp)：1688 批发商品、阿里巴巴国际站商品和供应商评价。
+- [速卖通 MCP（AliExpress MCP）](https://github.com/zen-studio-labs/aliexpress-mcp)：速卖通商品、准确订单量、运费和买家评价。
+- [G2 & Capterra 软件评价 MCP](https://github.com/zen-studio-labs/g2-capterra-reviews-mcp)：G2、Capterra、TrustRadius 和 Gartner Peer Insights 的软件评价。
 
 ## 许可证
 
